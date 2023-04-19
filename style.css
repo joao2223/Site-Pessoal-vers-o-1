@@ -1,0 +1,171 @@
+body {
+    background-color: black;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.cor {
+    color: white;
+}
+
+.menu_navegacao {
+    text-align: center;
+    background-color: black;
+}
+
+.menu {
+    text-decoration: none;
+    padding: 2%;
+    font-size: 26px;
+    color: white;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.minha_imagem {
+    width: 18%;
+    height: 18%;
+}
+
+.titulo_home {
+    font-size: 30px;
+}
+
+.paragrafo_home {
+    font-size: 20px;
+}
+
+.container_icones {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.imagem_icones {
+    width: 3%;
+    height: 3%;
+    padding: 2%;
+}
+
+.sobre_mim {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    text-align: center;
+}
+
+.boneco_south_park {
+    width: 50%;
+}
+
+.texto_sobre_mim {
+    padding: 10%;
+    text-align: left;
+}
+
+.titulo_sobre_mim {
+    padding-bottom: 7%;
+    font-size: 48px;
+    color: white;
+}
+
+.paragrafo_sobre_mim {
+    font-size: 20px;
+    color: white;
+}
+
+.habilidades {
+    padding: 10%;
+    max-height: 300px;
+}
+
+.titulo_habilidades {
+    color: white;
+    font-size: 48px;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.habilidades_todas_imagens {
+    display: flex;
+    justify-content: center;
+}
+
+.texto_habilidades {
+    font-size: 20px;
+    padding-left: 8%;
+}
+
+.imagem_habilidades {
+    width: 10%;
+    height: 10%;
+}
+
+.python {
+    width:60%;
+    height: 60%;
+}
+
+.imagem_unica_habilidade {
+    padding: 20%;
+    border: 10px;
+    border-color: white;
+}
+
+.texto_habilidades{
+    max-width: 200px;
+}
+
+.titulo_projetos {
+    font-size: 48px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.projetos_cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card_unico_projeto {
+    background-color: white;
+    height: 195px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 1%;    
+}
+
+.texto_card {
+    color: black;
+}
+
+.repositorio_github {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+.imagem_footer_github {
+    width: 3%;
+}
