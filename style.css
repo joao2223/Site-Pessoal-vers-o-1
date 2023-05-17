@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background: linear-gradient(180deg, #000000 0%, #222a21 50%, #2c3429 100%);
     font-family: 'Palanquin Dark', sans-serif;
 }
 
