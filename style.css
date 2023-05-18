@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(180deg, #000000 0%, #222a21 50%, #2c3429 100%);
+    background: linear-gradient(180deg, #000000 0%, #222a21 50%, #424f3d 100%);
     font-family: 'Palanquin Dark', sans-serif;
 }
 
@@ -7,16 +7,21 @@ body {
     color: white;
 }
 
+navbar {
+    width: 100%;
+    position: fixed;
+}
+
 .menu_navegacao {
     text-align: center;
-    background-color: black;
+    background-color: transparent;
 }
 
 .menu {
     text-decoration: none;
     padding: 2%;
     font-size: 26px;
-    color: white;
+    color: white;    
 }
 
 .home {
@@ -82,7 +87,7 @@ body {
 }
 
 .habilidades {
-    padding: 10%;
+    padding: 15%;
     max-height: 300px;
 }
 
@@ -168,4 +173,46 @@ footer {
 
 .imagem_footer_github {
     width: 3%;
+}
+
+@media screen and (max-width: 800px) {
+    .minha_imagem{
+        width: 50%;
+        padding-bottom: 1rem;
+    }
+
+    .imagem_icones {
+        width: 2rem;
+        padding: 1rem;
+    }
+
+    .paragrafo_home{
+        text-align: center;
+        align-items: center;
+    }
+
+    .boneco_south_park{
+        width: 100%;
+    }
+    .sobre_mim{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .texto_sobre_mim{
+        text-align: center;
+    }
+
+    .imagem_unica_habilidade{
+        width: 2rem;
+    }
+
+    footer{
+        padding-top: 2rem;
+    }
+
+    .imagem_footer_github{
+        width: 2rem;
+    }
 }
